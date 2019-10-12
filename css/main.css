@@ -8,9 +8,12 @@ html {
   box-sizing: inherit;
 }
 
+body {
+  margin: 0;
+}
+
 header {
   background: #ffe500;
-  padding:.2em .5em .3em;
 }
 
 h1, h2 {
@@ -22,6 +25,7 @@ h1 {
   display: block;
   text-align: center;
   font-size: 3rem;
+  margin: 0;
 }
 
 h2 {
@@ -38,46 +42,49 @@ nav li {
   display: inline-block;
   list-style-type: none;
   background-color: #b2a212;
+  border-radius: 4px;
 }
 
 nav a {
   text-decoration: none;
+  font-family: Georgia, serif;
+  font-size: 1.125rem;
+  color: #fff;
   border: 3px solid #b2a212;
   background-color: #b2a212;
-  font-family: Georgia, serif;
-  color: #fff;
   border-radius: 4px;
-  padding: .2em .5em .3em;
 }
 
 a:hover {
   background-color: #cc1465;
   border: 3px solid #cc1465;
+  border-radius: 4px;
 }
 
 .current {
   background-color: #cc1465;
   border: 3px solid #cc1465;
+  border-radius: 4px;
 }
 
 main {
   padding: 0 .75em;
-  margin: .3em;
 }
 
 img {
   display: block;
   width: 100%;
-  margin: .3em;
 }
 
 p {
   display: block;
-  font-size: 1.125rem;
+  font-size: .75rem;
+  color: #2f2d13;
 }
 
 footer {
   background: #ffe500;
+  padding: .75em;
 }
 
 small {
