@@ -46,6 +46,10 @@ nav a {
   padding: .2em .5em .3em;
 }
 
+.current {
+  background: #cc1465;
+}
+
 article {
   padding: 0 .75em;
   display: inline-block;
