@@ -21,11 +21,13 @@ h1, h2 {
 h1 {
   display: block;
   text-align: center;
+  font-size: 3rem;
 }
 
 h2 {
-  display: inline-block;
+  display: block;
   text-align: left;
+  font-size: 1.875rem;
 }
 
 nav {
@@ -35,28 +37,43 @@ nav {
 nav li {
   display: inline-block;
   list-style-type: none;
+  background-color: #b2a212;
 }
 
 nav a {
   text-decoration: none;
-  border: 3px solid;
+  border: 3px solid #b2a212;
+  background-color: #b2a212;
   font-family: Georgia, serif;
   color: #fff;
   border-radius: 4px;
   padding: .2em .5em .3em;
 }
 
-.current {
-  background: #cc1465;
+a:hover {
+  background-color: #cc1465;
+  border: 3px solid #cc1465;
 }
 
-article {
+.current {
+  background-color: #cc1465;
+  border: 3px solid #cc1465;
+}
+
+main {
   padding: 0 .75em;
-  display: inline-block;
+  margin: .3em;
 }
 
 img {
-margin: .3em;
+  display: block;
+  width: 100%;
+  margin: .3em;
+}
+
+p {
+  display: block;
+  font-size: 1.125rem;
 }
 
 footer {
